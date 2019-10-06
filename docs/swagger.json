@@ -181,7 +181,7 @@
             }
           }
         },
-        "summary": "Post all data",
+        "summary": "Post  form data",
         "operationId": "post_form_data"
       }
     }
