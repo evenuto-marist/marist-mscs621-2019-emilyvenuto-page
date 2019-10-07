@@ -156,33 +156,26 @@
       }
     },
     "/functions/": {
+      "summary": "Handle data for function",
       "get": {
+        "summary": "Send default information",
+        "description": "Successful Response",
+        "operationId": "show_default",
         "responses": {
           "200": {
-            "description": "Successful Response",
-            "content": {
-              "application/json": {
-                "schema": {}
-              }
-            }
+            "description": "Default error sample response"
           }
-        },
-        "summary": "Retrieve file data",
-        "operationId": "get_form_data"
+        }
       },
       "post": {
+        "summary": "Send input information",
+        "description": "Successful Response",
+        "operationId": "show_user_input",
         "responses": {
           "200": {
-            "description": "Successful Response",
-            "content": {
-              "application/json": {
-                "schema": {}
-              }
-            }
+            "description": "Default error sample response"
           }
-        },
-        "summary": "Post  form data",
-        "operationId": "post_form_data"
+        }
       }
     }
   }
