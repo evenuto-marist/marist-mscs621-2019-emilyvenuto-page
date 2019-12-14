@@ -5,6 +5,8 @@ Note on how to use the search function of this application: This application uti
 Search examples: "12601", "Poughkeepsie", "12601,US"
 
 View the app: My version of the app is viewable at the following locations.
+  
+![](images/myapppic.png)
 
 https://venuto-weather.herokuapp.com
 whatstheweather.us-east-1.elasticbeanstalk.com
@@ -20,4 +22,5 @@ This command uses port 5000 for the server inside the container and exposes the 
 CLOUD DEPLOYMENT
 Once you have pushed your docker image to DockerHub and have verified that it is running as expected, you can connect the app to cloud providers such as AWS and Heroku.
 
-Cloud architecture diagram - This diagram shows the local cloud development, cloud deployment, and communication between these services and the OpenWeatherMap API.
+Cloud architecture diagram - This diagram shows the local cloud development, cloud deployment, and communication between these services and the OpenWeatherMap API.  
+![](images/cloud_arch3.png)
