@@ -1,6 +1,8 @@
-## Ever want to build your own weather application? This "What's the Weather in Your City?" App is the perfect place to start! 
+## Ever want to build your own weather application? The "What's the Weather in Your City?" app is the perfect place to start! 
   
 [Check out the working model here](https://venuto-weather.herokuapp.com)  
+
+![](images/myapppic.PNG)
 
 This app allows you to query the weather in any city across the world via the OpenWeatherMap API. You can search by city, zip code, and country to view the coordinates, temperature, and current weather conditions in that location.
   
